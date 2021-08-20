@@ -1,0 +1,70 @@
+.page__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 16px;
+}
+
+.page__subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 34px;
+}
+
+.page__content {
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+    position: relative;
+}
+
+.page__content::after {
+    content: url('../../assets/img/Vector.png');
+    position: absolute;
+    bottom: 25%;
+    right: 60%;
+}
+
+.button {
+    padding: 16px 27px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.button:hover {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.button--transparent {
+    border: transparent;
+    background-color: transparent;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.button--blue {
+    background-color: #18216D;
+    border: #18216D;
+    color: #ffff;
+}
+
+.button--green {
+    background: #00ECD0;
+    border: #00ECD0;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    padding: 0 12.5%;
+    margin: 0 auto;
+}

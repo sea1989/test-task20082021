@@ -1,0 +1,104 @@
+.companies__text-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.companies__text {
+    width: 42%;
+}
+
+.companies__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.statistic {
+    display: flex;
+}
+
+.statistic__download {
+    margin-right: 93px;
+}
+
+.statistic__number {
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: -1px;
+}
+
+.statistic__icons {
+    margin: 10px 0 12px;
+    display: flex;
+}
+
+.icon__heart {
+    margin-right: 5px;
+}
+
+.icon__heart:last-child {
+    margin-right: 0;
+}
+
+.icon__star {
+    margin-right: 6px;
+}
+
+.icon__star:last-child {
+    margin-right: 0;
+}
+
+.statistic__desc {
+    font-style: 400px;
+    font-size: 16px;
+}
+
+.companies__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 16px 27px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.button:hover {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.button--transparent {
+    border: transparent;
+    background-color: transparent;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.button--blue {
+    background-color: #18216D;
+    border: #18216D;
+    color: #ffff;
+}
+
+.button--green {
+    background: #00ECD0;
+    border: #00ECD0;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    padding: 0 12.5%;
+    margin: 0 auto;
+}
