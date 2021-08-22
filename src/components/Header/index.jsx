@@ -1,11 +1,21 @@
 import React from 'react';
-
 import './style.css';
+
+const data = [
+    'Home',
+    'Features',
+    'Pricing',
+    'Solution',
+    'Faq'
+]
+const Li = (props) => (
+    <li className="menu__item" >
+        <a href="#" className="menu__link">{props.item}</a>
+    </li>
+)
 
 export default class Header extends React.Component {
     render() {
-        //const props = this.props
-
         return (
             <header className="header">
                 <div className="container header__container">
@@ -17,21 +27,9 @@ export default class Header extends React.Component {
                     </a>
                     <nav className="header__menu">
                         <ul className="menu__list">
-                            <li className="menu__item">
-                                <a href="#" className="menu__link">Home</a>
-                            </li>
-                            <li className="menu__item">
-                                <a href="#" className="menu__link">Feature</a>
-                            </li>
-                            <li className="menu__item">
-                                <a href="#" className="menu__link">Pricing</a>
-                            </li>
-                            <li className="menu__item">
-                                <a href="#" className="menu__link">Solution</a>
-                            </li>
-                            <li className="menu__item">
-                                <a href="#" className="menu__link">Faq</a>
-                            </li>
+                            {
+                                data.map((item, i) => <Li item={item} key={item} />)
+                            }
                         </ul>
                     </nav>
                     <div className="header__buttons">

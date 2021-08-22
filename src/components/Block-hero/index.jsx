@@ -1,12 +1,8 @@
 import React from 'react';
-
 import './style.css';
-//import hero from '../public/img/hero.png'
 
 export default class Hero extends React.Component {
     render() {
-        //const props = this.props
-
         return (
             <section className="hero">
                 <div className="container">
@@ -17,8 +13,6 @@ export default class Hero extends React.Component {
                                 Ipsum as their default</h4>
                             <button className="button button--green">Start for free</button>
                         </div>
-
-
                         <div className="page__img-section">
                             <img src='./img/hero.png' alt="woman" className="hero__img" />
                         </div>

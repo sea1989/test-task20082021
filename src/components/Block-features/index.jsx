@@ -1,12 +1,8 @@
 import React from 'react';
-
 import './style.css';
-//import hero from '../public/img/hero.png'
 
 export default class Features extends React.Component {
     render() {
-        //const props = this.props
-
         return (
             <section className="features">
                 <div className="container">
